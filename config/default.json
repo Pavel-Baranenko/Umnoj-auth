@@ -1,14 +1,12 @@
 {
     "port": 80,
     "baseUrl": "http://localhost",
-    "serverUrl": "d.sve.fvds.ru",
+    "serverUrl": "",
     "jwtSecret": "user cabinet",
     "maxTry": 3,
     "tokenExpire": 14,
     "staticPath": "D:\\freelance\\user_adm\\static",
     "smsRu": {
-        "apiUrl": "https://sms.ru/sms/send",
-        "api_token": "",
         "activationCodeLength": 4,
         "apiTimeout": 1
     },
@@ -19,7 +17,7 @@
     "dbConnection": {
         "client": "pg",
         "connection": {
-            "host": "46.17.103.202",
+            "host": "",
             "port": 5432,
             "database": "user_adm",
             "user": "user_admin",
