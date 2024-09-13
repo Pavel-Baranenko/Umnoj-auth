@@ -8,7 +8,7 @@
     "staticPath": "D:\\freelance\\user_adm\\static",
     "smsRu": {
         "apiUrl": "https://sms.ru/sms/send",
-        "api_token": "8AF6EC7A-53C3-80C0-E90B-CA7787E31DC8",
+        "api_token": "",
         "activationCodeLength": 4,
         "apiTimeout": 1
     },
@@ -19,11 +19,11 @@
     "dbConnection": {
         "client": "pg",
         "connection": {
-            "host" : "46.17.103.202",
-            "port" : 5432,
-            "database" : "user_adm",
-            "user" : "user_admin",  
-            "password" : "User_123%_adm",
+            "host": "46.17.103.202",
+            "port": 5432,
+            "database": "user_adm",
+            "user": "user_admin",
+            "password": "",
             "connectTimeout": 30000
         },
         "useNullAsDefault": true
