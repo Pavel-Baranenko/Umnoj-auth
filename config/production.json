@@ -1,0 +1,34 @@
+{
+    "port": 445,
+    "baseUrl": "https://d.sve.fvds.ru",
+    "serverUrl": "d.sve.fvds.ru",
+    "jwtSecret": "user cabinet",
+    "maxTry": 3,
+    "tokenExpire": 14,
+    "staticPath": "static",
+    "smsRu": {
+        "apiUrl": "https://sms.ru/sms/send",
+        "api_token": "8AF6EC7A-53C3-80C0-E90B-CA7787E31DC8",
+        "activationCodeLength": 4,
+        "apiTimeout": 1
+    },
+    "corsOptions": {
+        "origin": "*",
+        "optionsSuccessStatus": 200
+    },
+    "dbConnection": {
+        "client": "pg",
+        "connection": {
+            "host" : "46.17.103.202",
+            "port" : 5432,
+            "database" : "user_adm",
+            "user" : "user_admin",  
+            "password" : "User_123%_adm",
+            "connectTimeout": 30000
+        },
+        "useNullAsDefault": true
+    },
+    "tables": {
+        "users": "users"
+    }
+}
